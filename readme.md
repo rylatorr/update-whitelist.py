@@ -23,7 +23,11 @@ Example:
 ```
 python3 update-whitelist.py -k 0123456789abcdefghi0123456789abcdefghi -o 591661234567890123 -w "meraki.com,cisco.com"
 ```
-
+#### Getting your OrgID
+If you don't have your orgID already, you can get it using the getOrganizations API call
+in PostMan or similar. Or - after logging into dashboard, just hit the endpoint in
+your web browser:
+https://api.meraki.com/api/v0/organizations
 
 
 
